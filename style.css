@@ -128,11 +128,24 @@ h1{
     margin-bottom: 20px;
 }
 p{
-    font-size: 24px;
+    font-size:32px;
     flex-wrap: wrap;
 }
 .right{
+    position: relative;
     margin-right: 300px;
+}
+video{
+    position: absolute;
+    left :80px;
+    top:20%;
+    z-index: -1;
+}
+#video1{
+    left: 110px;
+    top: 5%;
+    width: 60%;
+    height: 60%;
 }
 
 img{
@@ -308,7 +321,14 @@ input[type='radio']{
         flex-direction: column;
     }
     img{
-        width: 60vw;
+        width: 30vw;
+    }
+    video{
+        width: 24vw;
+        left: 60px;
+    }
+    #video1{
+        left: 80px;
     }
     p{
         margin-left: 30px;
@@ -349,7 +369,16 @@ input[type='radio']{
     img{
         width: 40vw;
     }
+    video{
+        width: 29vw;
+        left: 6vw;
+    }
+    #video1{
+        left: 8vw;
+    }
 }
+
+
 @media (max-width: 700px){
     nav{
         padding: 20px;
@@ -428,6 +457,16 @@ input[type='radio']{
     .start-btn{
         padding: 13px 12px 8px;
         width: 10rem;
+    }
+    img{
+        width: 60vw;
+    }
+    video{
+        width: 45vw;
+        left: 10vw;
+    }
+    #video1{
+        left: 10vw;
     }
 
 
